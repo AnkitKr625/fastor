@@ -1,0 +1,100 @@
+.login-page {
+  display: flex;
+  flex-direction: column;
+  height: 812px;
+  margin-left: 20px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+}
+
+.input {
+  background-color: #F7F8F9;
+  font-size: 16px;
+  width: 316px;
+  height: 48px;
+  padding-left: 8px;
+  outline: none;
+  border: solid #DADADA 1px;
+  border-radius: 8px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.btn {
+  background-color: #FF6D6A;
+  color: #fff;
+  font-weight: 600;
+  width: 330px;
+  height: 56px;
+  border: none;
+  border-radius: 8px;
+}
+
+.header-txt {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.sub-header-txt {
+  font-weight: 500;
+  font-size: 16px;
+  color: #8391A1;
+}
+
+.otp {
+  display: flex;
+  height: 64px;
+  width: 316px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.otp-enter {
+  height: 48px;
+  width: 48px;
+  color: #8391A1;
+  padding-top: 12px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 400;
+  background-color:#F7F8F9;
+  border: solid #E8ECF4 1px;
+  border-radius: 8px;
+}
+
+.restaurant-card {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 112px;
+  width: 320px;
+  cursor: pointer;
+}
+.restaurant-details {
+  width: inherit;
+}
+
+.restaurant-name{
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.restaurant-cusines, .restaurant-location, .rating-subtxt {
+  font-weight: 400;
+  font-size: 16px;
+  color: #8391A1;
+}
+
+.rating-subtxt {
+  font-size: 14px;
+}
+
+.restaurant-other-info {
+  display: flex;
+  justify-content: space-between;  
+}
